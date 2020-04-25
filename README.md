@@ -23,13 +23,13 @@ Given the infection's spread throughout NYC and the abundance of publicly availa
 
 We believe a **population data** model will be crucial in understanding why COVID-19 differentially impacts certain communities, specifically low-income and minority communities. 
 
-To create explore the code for the model and the preprocessing utilized, check out **population_data_model.ipynb.ipynb** in our [**model branch**](https://github.com/mattmotto/COVID19DataChallenge/tree/model). 
+To explore the code for the model and the preprocessing utilized, check out **population_data_model.ipynb.ipynb** in our [**model branch**](https://github.com/mattmotto/COVID19DataChallenge/tree/model). 
 
 Our accomplishments and next steps with the model:
 
  1. *Curated Population Data*: We pulled down data files for each **Neighborhood Tabulation Area** and mapped NTAs to **Zipcodes**, allowing for further research into how varying population features can account for COVID's differential impact. 
  2. *Dimensionality Reduction / Feature Selection*: We suggest that feature selection be employed using L1 regularization (Lasso) and recursive feature removal to reduce the feature space and create a more parsimonious model
- 3. *Aggregating Categories of Features*: Each of the 1300+ features is associated with a `category` such as `sex_and_age` and `occupation`, thus a further explorations of this model should these features together to theoretically strengthen the correlation. 
+ 3. *Aggregating Categories of Features*: Each of the 1300+ features is associated with a `category` such as `sex_and_age` and `occupation`, thus a further explorations of this model should group these features together to theoretically strengthen the correlation. 
  4. *Models for each Modality*: Given the five existing modalities, `Census`, `Demographic`, `Social`, `Economic`, and `Housing`  a model should be attempted to be created for each of them instead of the current *all-in-one* in order to elucidate important features in modality. 
 
 ## Files:
