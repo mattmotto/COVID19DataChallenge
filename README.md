@@ -1,3 +1,4 @@
+
 # CUEPID Data Challenge, April 2020
 ## Team: The Gang Gets Quarantined
 ### Project: COVID19’s Relationship to Different Demographics
@@ -23,14 +24,25 @@ Given the infection's spread throughout NYC and the abundance of publicly availa
 
 We believe a **population data** model will be crucial in understanding why COVID-19 differentially impacts certain communities, specifically low-income and minority communities. 
 
-To explore the code for the model and the preprocessing utilized, check out **population_data_model.ipynb.ipynb** in our [**model branch**](https://github.com/mattmotto/COVID19DataChallenge/tree/model). 
+To explore the code for the model and the preprocessing utilized, check out **population_data_model.ipynb** in our [**model branch**](https://github.com/mattmotto/COVID19DataChallenge/tree/model). 
 
-Our accomplishments and next steps with the model:
+Our accomplishments and recommendations with the model:
 
  1. *Curated Population Data*: We pulled down data files for each **Neighborhood Tabulation Area** and mapped NTAs to **Zipcodes**, allowing for further research into how varying population features can account for COVID's differential impact. 
  2. *Dimensionality Reduction / Feature Selection*: We suggest that feature selection be employed using L1 regularization (Lasso) and recursive feature removal to reduce the feature space and create a more parsimonious model
  3. *Aggregating Categories of Features*: Each of the 1300+ features is associated with a `category` such as `sex_and_age` and `occupation`, thus a further explorations of this model should group these features together to theoretically strengthen the correlation. 
  4. *Models for each Modality*: Given the five existing modalities, `Census`, `Demographic`, `Social`, `Economic`, and `Housing`  a model should be attempted to be created for each of them instead of the current *all-in-one* in order to elucidate important features in modality. 
+
+## Next Steps
+Due to time constraints, the full vision of our suite of visualization tools could not be realized. Each component allows to interrogate the notion of **differential spread rates caused by underlying population features**. 
+
+*Empirical Visualization* enables us to see the varying spread rates for each zip code in NYC. Next steps would be overlaying population data and attempting to correlate spread rate with population features. 
+
+*Simulated Data* enables us to have a null model that provides insight into how COVID-19 would have spread had no governmental intervention taken plan. Deviations from the null model thus inform us about which policies are effective. Next steps would be quantifying the difference in the simulated and empirical data and overlaying the dates of governmental actions to determine which policies were most effective in R-naught reduction in which zipcodes. 
+
+*City Similarity Metric* enables us to extend our findings to the rest of the United States by providing a framework to quantify similarities between different cities by looking at metrics such as public transportation usage and population density. Next steps would be formalizing this metric, aggregating population data for other cities like NYC, and trying to predict which neighborhoods given their population features would likely see similar rates of spread. 
+
+*Population Data Model* enables us to build a model based on census data to both understand which population features are most important in spread rate and potentially predict the spread rates for similar neighborhoods. Next steps would be testing out different models to create a baseline expectation, applying regularization to the current model to ensure the model can be effective to new data, and exploring methods to extract important features.
 
 ## Files:
 1. **city_comparison** contains data comparing NYC neighborhood demographics to neighborhoods in Chicago and Los Angeles
