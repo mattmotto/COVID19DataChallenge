@@ -10,7 +10,7 @@ Check out our results presentation [here!](https://drive.google.com/file/d/17VLf
 ## Empirical Visualization
 Using [NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response Data](https://github.com/nychealth/coronavirus-data), we compiled the source data to determine the rate of spread in each of NYC's zipcodes. 
 
-Outerboroughs tends to have faster rates of spread than than Manhattan implying there may be underlying contribute to disproportional rates in these communities.
+Outerboroughs tends to have faster rates of spread than Manhattan implying there may be underlying population features that contribute to disproportional spread rates in these communities.
 
 ## Simulated Data
 Using a basic SIR model, we generated a stochoastic model of the infection's spread. We utilized this model to discern what the R-naught *(the number of new infections estimated to stem from a single case)* would be in a stochastic scenario. 
