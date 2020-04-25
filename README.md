@@ -1,4 +1,5 @@
 # COVID19DataChallenge
+# Team: The Gang Gets Quarantined
 Codebase for Columbia's Covid-19 Data Challenge team made up of Matthew Otto, Jason Mohabir, Trey Gililand, and Tommy Gomez.
 
 Empirical Visualization
