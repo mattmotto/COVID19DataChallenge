@@ -2,6 +2,10 @@
 ## Team: The Gang Gets Quarantined
 Codebase for Columbia's COVID-19 Data Challenge team made up of Matthew Otto, Jason Mohabir, Trey Gililand, and Tommy Gomez.
 
+Check out our visualization page [here!](https://mattmotto.github.io/COVID19DataChallenge/)
+
+Check out our results presentation [here!](https://drive.google.com/file/d/17VLfUkkGQxszKJHhVe05uqlDDwnBc5-c/view?usp=sharing)
+
 ## Empirical Visualization
 
 ## Simulated Data
@@ -9,3 +13,15 @@ Codebase for Columbia's COVID-19 Data Challenge team made up of Matthew Otto, Ja
 ## City Similarity Metric
 
 ## Demographic Model
+
+## Files:
+1. **city_comparison** contains data comparing NYC neighborhood demographics to neighborhoods in Chicago and Los Angeles
+2. **machine_learning_model** contains data generated and used by our machine learning model predicting most imporant demographic factors to spread rate
+3. **national_data** contains data matching COVID-19 cases and deaths to geographic regions of the U.S. ([source](https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html))
+4. **nyc_planner_data** contains demographic, economic, housing, etc. data in various regions of NYC
+5. **population_factfinder** contains demographic, economic, housing, etc. data of NYC
+6. **random_simulation** contains code used to generate our visualization of randomized spread of COVID-19
+7. **zipcode_data** contains data matching positive, total cases and deaths to zipcodes in NYC throughout the month of April
+
+## Create your own visualizations!
+To create your own NYC-based visualizations, check out **visualization-code.ipynb** in our [**gh-pages branch**](https://github.com/mattmotto/COVID19DataChallenge/tree/gh-pages). 
