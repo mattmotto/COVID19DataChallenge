@@ -7,7 +7,7 @@ Check out our visualization page [here!](https://mattmotto.github.io/COVID19Data
 Check out our results presentation [here!](https://drive.google.com/file/d/17VLfUkkGQxszKJHhVe05uqlDDwnBc5-c/view?usp=sharing)
 
 ## Empirical Visualization
-Using [NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response Data](https://github.com/nychealth/coronavirus-data "NYC Department of Health and Mental Hygiene (DOHMH), we compiled the source data to determine the rate of spread in each of NYC's zipcodes. 
+Using [NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response Data](https://github.com/nychealth/coronavirus-data), we compiled the source data to determine the rate of spread in each of NYC's zipcodes. 
 
 Outerboroughs tends to have faster rates of spread than than Manhattan implying there may be underlying contribute to disproportional rates in these communities.
 
