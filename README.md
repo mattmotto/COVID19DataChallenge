@@ -1,14 +1,18 @@
 # CUEPID Data Challenge, April 2020
 ## Team: The Gang Gets Quarantined
-Codebase for Columbia's COVID-19 Data Challenge team made up of Matthew Otto, Jason Mohabir, Trey Gililand, and Tommy Gomez.
+Codebase for Columbia's[ COVID-19 Data Challenge team](https://datascience.columbia.edu/dsis-center-health-analytics-launches-covid-19-data-challenge " COVID-19 Data Challenge team") made up of Matthew Otto (SEAS'21), Jason Mohabir (SEAS'21), Trey Gililand (SEAS'22), and Tommy Gomez (CC'22).
 
 Check out our visualization page [here!](https://mattmotto.github.io/COVID19DataChallenge/)
 
 Check out our results presentation [here!](https://drive.google.com/file/d/17VLfUkkGQxszKJHhVe05uqlDDwnBc5-c/view?usp=sharing)
 
 ## Empirical Visualization
+Using [NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response Data](https://github.com/nychealth/coronavirus-data "NYC Department of Health and Mental Hygiene (DOHMH), we compiled the source data to determine the rate of spread in each of NYC's zipcodes. 
+
+Outerboroughs tends to have faster rates of spread than than Manhattan implying there may be underlying contribute to disproportional rates in these communities.
 
 ## Simulated Data
+Using a basic SIR model, we generated a stochoastic model of the infection's spread. We utilized this model to discern what the R-naught *(the number of new infections estimated to stem from a single case)* would be in a stochastic scenario. 
 
 ## City Similarity Metric
 
