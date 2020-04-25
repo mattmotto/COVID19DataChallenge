@@ -1,11 +1,11 @@
-# COVID19DataChallenge 
+# CUEPID Data Challenge, April 2020
 ## Team: The Gang Gets Quarantined
-Codebase for Columbia's Covid-19 Data Challenge team made up of Matthew Otto, Jason Mohabir, Trey Gililand, and Tommy Gomez.
+Codebase for Columbia's COVID-19 Data Challenge team made up of Matthew Otto, Jason Mohabir, Trey Gililand, and Tommy Gomez.
 
-Empirical Visualization
+## Empirical Visualization
 
-Simulated Data
+## Simulated Data
 
-City Similarity Metric
+## City Similarity Metric
 
-Demographic Model
+## Demographic Model
