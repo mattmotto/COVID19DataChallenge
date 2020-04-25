@@ -1,11 +1,7 @@
-
-
 # CUEPID Data Challenge, April 2020
 ## Team: The Gang Gets Quarantined
-## COVID19’s Relationship to Different Demographics
+### Project: COVID19’s Relationship to Different Demographics
 Codebase for Columbia's[ COVID-19 Data Challenge team](https://datascience.columbia.edu/dsis-center-health-analytics-launches-covid-19-data-challenge " COVID-19 Data Challenge team") made up of Matthew Otto (SEAS'21), Jason Mohabir (SEAS'21), Trey Gililand (SEAS'22), and Tommy Gomez (CC'22).
-
-
 
 Check out our visualization page [here!](https://mattmotto.github.io/COVID19DataChallenge/)
 
